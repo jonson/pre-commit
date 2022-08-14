@@ -1,0 +1,10 @@
+- id: solhint
+  name: solhint
+  description: ""
+  entry: solhint
+  language: node
+  "types": [text]
+  args: []
+  require_serial: false
+  additional_dependencies: ["solhint@3.3.7"]
+  minimum_pre_commit_version: "0"
